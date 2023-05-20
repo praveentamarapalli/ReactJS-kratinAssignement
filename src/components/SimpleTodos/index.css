@@ -1,0 +1,142 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/dmeqhiqbm/image/upload/v1684572166/26363_vtt5j6.jpg');
+  background-size: contain;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #030256;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin: 32px 0px 12px 0px;
+  }
+}
+
+.tag-line {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  margin: 12px 0px 32px 0px;
+}
+
+.tutorial-container {
+  list-style-type: none;
+  align-self: flex-start;
+  margin-left: 8%;
+}
+
+.tutorial-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.tutorial-icon {
+  font-size: 22px;
+  margin-left: 8px;
+}
+
+.list-item {
+  font-family: 'Bee Sarif';
+  font-size: 16px;
+  font-weight: 600;
+  color: #37036e;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    font-size: 22px;
+  }
+}
+
+.input-box {
+  height: 42px;
+  width: 50%;
+  border-radius: 60px;
+  padding-left: 10px;
+  margin: 10px 16px 10px 0px;
+  border: 2px solid #280270;
+}
+
+.input-label-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #280270;
+}
+
+@media screen and (min-width: 768px) {
+  .input-label-text {
+    font-size: 24px;
+  }
+}
+
+.add-btn {
+  background-color: #280270;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  outline: none;
+}
+
+.todo-list-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-list-heading {
+    font-size: 24px;
+  }
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-image: url('https://res.cloudinary.com/dmeqhiqbm/image/upload/v1684572585/19366_h7hkvr.jpg');
+  background-size: cover;
+  border-radius: 36px;
+  width: 80%;
+  height: 80%;
+  margin-bottom: 36px;
+  padding: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .todos-container {
+    padding: 36px;
+  }
+}
+
+.todos-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.save-btn-position {
+  text-align: center;
+}

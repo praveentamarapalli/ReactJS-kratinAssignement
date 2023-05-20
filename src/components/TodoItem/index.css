@@ -1,0 +1,98 @@
+.todo-list-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.label-container {
+  width: 100%;
+  background-color: #c3d3d8;
+  border: 5px solid #878788;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 5px;
+  padding: 2px 20px 2px 8px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  height: 24px;
+  width: 24px;
+}
+
+.title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  align-self: flex-start;
+  margin: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+@media screen and (min-width: 768px) {
+  .ds-delete-btn {
+    background-color: #9f0f0f;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    height: 34px;
+    width: 70px;
+    outline: none;
+    cursor: pointer;
+    align-self: center;
+    display: inline-block;
+    box-shadow: 0 2px #999;
+  }
+  .ds-delete-btn:hover {
+    background-color: #d73030;
+  }
+
+  .ds-delete-btn:active {
+    background-color: #b72a2a;
+    box-shadow: 0 2px #c33a3a;
+    transform: translateY(2px);
+  }
+
+  .mb-delete-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ds-delete-btn {
+    display: none;
+  }
+
+  .mb-delete-btn {
+    font-size: 26px;
+    height: 26px;
+    width: 26px;
+    background-color: transparent;
+    color: #9f0f0f;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .mb-delete-btn:active {
+    color: #d73030;
+    transform: translateY(2px);
+  }
+}
